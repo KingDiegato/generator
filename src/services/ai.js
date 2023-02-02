@@ -9,8 +9,8 @@ export async function hotelReview(input, size) {
     temperature: 1.2,
     k: 0,
     p: 0.75,
-    frequency_penalty: 0,
-    presence_penalty: 0,
+    frequency_penalty: 1,
+    presence_penalty: 0.5,
     stop_sequences: ['--'],
     return_likelihoods: 'NONE'
   }

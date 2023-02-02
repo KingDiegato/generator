@@ -29,7 +29,7 @@ function App() {
       }
       <TextField id='res' multiline maxRows={20} disabled defaultValue='waiting for the prompt' />
       {
-        able ? <Button variant='contained' color='success' onClick={handleClick}> Start Generate </Button> : <Button variant='contained' color='secondary' disabled> Waiting for the promise </Button>
+        able ? <Button sx={{ mb: 5 }} variant='contained' color='success' onClick={handleClick}> Start Generate </Button> : <Button sx={{ mb: 5 }} variant='contained' color='secondary' disabled> Waiting for the promise </Button>
       }
 
     </div>
